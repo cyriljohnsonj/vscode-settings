@@ -39,7 +39,7 @@
     "editor.fontLigatures": true,
     "editor.fontWeight": 400,
     "editor.fontSize": 13,
-    "editor.lineHeight": 21,
+    "editor.lineHeight": 22,
     "editor.rulers": [120],
 
     /** Editor Scroll */
@@ -71,7 +71,7 @@
     "editor.guides.indentation": false,
 
     /** Editor Controls */
-    "editor.showFoldingControls": "never",
+    "editor.showFoldingControls": "mouseover",
     "editor.dragAndDrop": false,
 
     /** Editor Details */
@@ -208,6 +208,16 @@
     /** Python Linters */
     "black-formatter.args": ["--line-length=120"],
     "isort.args": ["--profile", "black"],
+
+    /** Indent Rainbow */
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
 
     /** Miscellaneous */
     "redhat.telemetry.enabled": false,
